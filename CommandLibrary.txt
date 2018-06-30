@@ -1,0 +1,12 @@
+## Install Azure AD CLI Module
+install-module azuread
+
+## Connect to Azure Instance Via Powershell
+Connect-AzureAd
+
+## List all Azure AD Users
+az ad user list
+
+## Delete Role assignment from AD Group
+az role assignment delete --assignee "cbd04d8a-1bae-4a5d-a88d-0bcf02c
+ede31" --resource-group "RG-Playground-TeamGeridan"
